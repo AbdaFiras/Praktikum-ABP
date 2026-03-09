@@ -61,7 +61,7 @@ Git adalah sistem version control yang digunakan untuk mengelola dan melacak per
 
 Sebelum menggunakan Git, kita perlu melakukan instalasi terlebih dahulu pada komputer. Git dapat diunduh melalui website resminya yaitu https://git-scm.com. Setelah masuk ke website tersebut, pilih tombol download sesuai dengan sistem operasi yang digunakan. Setelah file installer berhasil diunduh, jalankan file tersebut dan ikuti langkah-langkah instalasi sampai selesai. Setelah proses instalasi selesai, Git dapat dicek apakah sudah terpasang dengan benar atau belum melalui Command Prompt atau terminal dengan mengetik perintah: git --version
 
-![Screenshot](Screenshot 2026-03-09 193417.png)
+![Screenshot](Screenshotsscmdgit.png)
 
 ### Penggunaan Git
 
