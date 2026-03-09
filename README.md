@@ -52,13 +52,15 @@
 
 ## Dasar Teori
 
-### Pengenalan Git
+### Apa itu Git?
 
-Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds. Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
+Git adalah sistem version control yang digunakan untuk mengelola dan melacak perubahan pada file atau kode dalam sebuah project. Git membantu developer menyimpan riwayat perubahan sehingga jika terjadi kesalahan kita bisa kembali ke versi sebelumnya. Selain itu Git juga memudahkan banyak orang untuk bekerja pada project yang sama secara bersamaan tanpa takut file saling tertimpa.Dengan Git, setiap perubahan yang dilakukan pada project dapat dicatat melalui proses commit, lalu disimpan di repository baik secara lokal maupun online seperti di GitHub.
 
 ### Instalasi Git
 
-Untuk menginstall git bisa membuka link berikut ini [installer github](https://git-scm.com/download/win) untuk mengunduh Git terlebih dahulu. Setelah berhasil mengunduh lakukan instalasi dengan mengikuti arahan pada installer git. Lalu ketika instalasi berhasil bisa mengecek versi git dengan menggunakan command `git -- version`
+
+Sebelum menggunakan Git, kita perlu melakukan instalasi terlebih dahulu pada komputer. Git dapat diunduh melalui website resminya yaitu https://git-scm.com. Setelah masuk ke website tersebut, pilih tombol download sesuai dengan sistem operasi yang digunakan. Setelah file installer berhasil diunduh, jalankan file tersebut dan ikuti langkah-langkah instalasi sampai selesai. Setelah proses instalasi selesai, Git dapat dicek apakah sudah terpasang dengan benar atau belum melalui Command Prompt atau terminal dengan mengetik perintah: git --version
+
 ![Image 1](images/image1.png)
 
 ### Penggunaan Git
