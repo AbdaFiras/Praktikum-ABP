@@ -104,7 +104,7 @@ Untuk mengclone repositori orang lain bisa mengikuti langkah langkah berikut:
 
 ### Output
 
-![Output 1](images/task_image1.png)
-Gambar tersebut merupakan proses untuk membuat suatu repositori mulai dari `git init` sampai `git push origin main`. git init merupakan inisialisasi repositori lokal lalu diikuti dengan penambahan file ke repositori, commit, pembuatan branch, clone repositori online lalu yang terakhir push.
+![Output 1](ssgit.png)
+Gambar tersebut menunjukkan tahapan pembuatan repository menggunakan Git melalui command line. Proses dimulai dari perintah `git init` untuk membuat repository lokal pada folder project. Setelah itu dilakukan penambahan file ke dalam repository menggunakan perintah `git add`, kemudian menyimpan perubahan dengan `git commit`. Selanjutnya dilakukan pembuatan branch utama dan menghubungkan repository lokal dengan repository yang ada di GitHub. Tahap terakhir adalah mengirimkan file ke repository online menggunakan perintah `git push origin main`.
 ![Output 2](images/task_image2.png)
-Gambar tersebut merupakan contoh output dari command-command sebelumnya. File berhasil disimpan pada repositori online melalui CLI.
+Gambar berikut menampilkan hasil dari perintah-perintah Git yang telah dijalankan sebelumnya. Dari tampilan tersebut dapat dilihat bahwa proses upload project ke GitHub berhasil dilakukan. Hal ini menandakan bahwa file yang ada pada repository lokal sudah tersimpan dan dapat diakses pada repository online melalui Git CLI.
