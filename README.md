@@ -66,38 +66,37 @@ Berikut hasil pengecekan versi Git:
 
 ### Penggunaan Git
 
-Git pada umumnya digunakan untuk version controlling suatu software, berikut list penggunaan github:
+Secara umum Git digunakan untuk mengelola perubahan pada sebuah project atau software. Dengan Git, setiap perubahan pada file dapat dilacak sehingga memudahkan developer untuk bekerja secara terstruktur. Berikut beberapa penggunaan Git yang sering dilakukan:
 
-#### 1. Membuat repositori baru
+#### 1. Membuat repository baru
 
-Perintah `git init` akan membuat sebuah direktori bernama .git di dalam proyek yang akan dikerjakan. Direktori ini digunakan Git sebagai database untuk menyimpan perubahan yang kita lakukan.
+Untuk memulai penggunaan Git pada sebuah project, kita dapat membuat repository baru dengan perintah `git init`. Perintah ini akan membuat folder tersembunyi bernama `.git` di dalam project. Folder tersebut berfungsi sebagai tempat Git menyimpan seluruh riwayat perubahan pada project.
 
-#### 2. Menambahkan isi repositori
+#### 2. Menambahkan file ke repository
 
-Untuk menambahkan suatu file ke dalam repositori, dapat langsung menambahkan file ke dalam folder projek yang telah dibuat, sebelum file benar benar tersimpan harus melakukan command `git commit -m “pesan commit”`.
+Setelah repository dibuat, file yang ada di dalam project dapat ditambahkan ke Git. Biasanya file dimasukkan terlebih dahulu menggunakan perintah `git add`, kemudian perubahan tersebut disimpan menggunakan perintah `git commit -m "pesan commit"`. Commit ini berfungsi untuk mencatat perubahan yang telah dilakukan pada project.
 
-#### 3. Membuat repositori online
+#### 3. Membuat repository secara online
 
-Untuk membuat repositori online dapat dilakukan melalui website github.
+Selain repository lokal di komputer, kita juga bisa membuat repository secara online menggunakan platform seperti GitHub. Repository online ini berfungsi sebagai tempat penyimpanan project sehingga dapat diakses dari mana saja serta memudahkan kolaborasi dengan orang lain.
 
-#### 4. Menyimpan hasil pekerjaan di repositori online
+#### 4. Mengirim project ke repository online
 
-Untuk menyimpan hasil pekerjaan bisa mengikuti langkah langkah berikut:
+Setelah repository online dibuat, project dari komputer dapat dihubungkan dengan repository tersebut. Caranya dengan menambahkan alamat repository menggunakan perintah:
 
-- a. Ketikan perintah ini, sesuaikan dengan username dan repository Anda:
-`git remote add origin https://github.com/usernameanda/namarepo.git`
-Perintah ini akan menambahkan repositori online yang ada pada Github kedalam daftar repositori jarak jauh yang ada.
-- b. Untuk mengirimkan data yang ada di komputer kalian ke repositori jarak jauh, gunakan perintah ini:
-`git push -u origin master`
+`git remote add origin https://github.com/username/namarepository.git`
 
-#### 5. Clone repositori milik orang lain  
+Perintah ini akan menghubungkan repository lokal dengan repository yang ada di GitHub. Setelah itu, file project dapat dikirim ke repository online menggunakan perintah:
 
-Untuk mengclone repositori orang lain bisa mengikuti langkah langkah berikut:
+`git push -u origin main`
 
-- a. Buka repositori yang akan di-clone pada Github, lalu klik tombol clone.
-- b. Copy text yang muncul seperti dibawah ini, ini merupakan url dari repositori tujuan yang akan di clone.
-- c. Buka command prompt dan ketikan perintah ini, `git clone [url repositori tujuan]`
+#### 5. Mengambil atau menyalin repository orang lain
 
+Git juga memungkinkan kita untuk menyalin repository milik orang lain ke komputer kita. Proses ini disebut dengan clone. Langkahnya yaitu membuka repository yang ingin diambil di GitHub, kemudian menyalin link repository tersebut. Setelah itu jalankan perintah berikut di terminal atau command prompt:
+
+`git clone [link repository]`
+
+Dengan perintah tersebut, seluruh isi repository beserta riwayat perubahannya akan tersalin ke komputer kita.
 ## Tugas
 
 ### 1. Melakukan setup repository via CLI
