@@ -13,7 +13,9 @@
 
   <br />
 
-  <img src="images/logo.jpeg" alt="Logo" width="300">
+  <p align="center">
+<img src="logo.jpeg" width="200">
+</p>
 
   <br />
   <br />
@@ -22,9 +24,9 @@
   <h3>Disusun Oleh :</h3>
 
   <p>
-    <strong>Fahreza Ilham Wicaksono</strong><br>
-    <strong>2311102191</strong><br>
-    <strong>S1 IF-11-REG01</strong>
+    <strong>Abda Firas Rahman</strong><br>
+    <strong>2311102049</strong><br>
+    <strong>S1 IF-11-01</strong>
   </p>
 
   <br />
